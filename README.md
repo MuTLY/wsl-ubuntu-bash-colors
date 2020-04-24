@@ -3,7 +3,7 @@
 This Powershell script writes new colors to the Windows registry, modifying the Windows Subsystem for Linux (WSL) Ubuntu bash to resemble the colors of the native Ubuntu bash.
 
 1. Install the Ubuntu fonts provided in the `/fonts` folder:
-    * Select all the fonts `[CTRL + A]`;
+    * Select all the fonts <kbd>Ctrl</kbd> + <kbd>A</kbd>;
     * Right-click on one of the fonts and select "Install for all users";
     * Click "Yes" if prompted;
 
