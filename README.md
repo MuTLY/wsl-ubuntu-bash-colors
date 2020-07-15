@@ -22,9 +22,17 @@ The script will loop through the **Ubuntu** folders on the `\Computer\HKEY_CURRE
 
 There's a caveat: whenever you install a new WSL Ubuntu version, you'll have to run its bash - so Registry keys are created - and this Powershell script again.
 
+## Easy mode
+
+The easiest mode to have Ubuntu colors on the WSL Ubuntu bash is to use the new Windows Terminal app (you can find it on the Windows Store), add the color scheme inside the `windows-terminal-color-scheme.json` file to the custom colors of the Windows Terminal settings and set it as the default for the Ubuntu profile.
+
+## More information
+
 For more information, refer to these links:
 
 1. https://docs.microsoft.com/en-us/windows/wsl/install-win10
 2. https://docs.microsoft.com/en-us/windows/wsl/install-win10#windows-10-fall-creators-update-and-later-install-from-the-microsoft-store
 3. https://medium.com/@jgarijogarde/make-bash-on-ubuntu-on-windows-10-look-like-the-ubuntu-terminal-f7566008c5c2
 4. https://design.ubuntu.com/font/
+5. https://docs.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes
+6. https://atomcorp.github.io/themes/
