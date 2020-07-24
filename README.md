@@ -1,5 +1,11 @@
 # WSL Ubuntu bash console colors
 
+## Easy mode
+
+The easiest mode to have Ubuntu colors on the WSL Ubuntu bash is to use the new Windows Terminal app (you can find it on the Windows Store), add the color scheme inside the `windows-terminal-color-scheme.json` file to the custom colors of the Windows Terminal settings and set it as the default for the Ubuntu profile.
+
+## Hard mode
+
 This Powershell script writes new colors to the Windows registry, modifying the Windows Subsystem for Linux (WSL) Ubuntu bash to resemble the colors of the native Ubuntu bash.
 
 1. Install WSL, then reboot;
@@ -22,11 +28,7 @@ The script will loop through the **Ubuntu** folders on the `\Computer\HKEY_CURRE
 
 There's a caveat: whenever you install a new WSL Ubuntu version, you'll have to run its bash - so Registry keys are created - and this Powershell script again.
 
-## Easy mode
-
-The easiest mode to have Ubuntu colors on the WSL Ubuntu bash is to use the new Windows Terminal app (you can find it on the Windows Store), add the color scheme inside the `windows-terminal-color-scheme.json` file to the custom colors of the Windows Terminal settings and set it as the default for the Ubuntu profile.
-
-## More information
+### More information
 
 For more information, refer to these links:
 
